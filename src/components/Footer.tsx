@@ -12,7 +12,7 @@ export default function Footer() {
               <Box className="text-brand-black w-5 h-5" />
             </div>
             <span className="font-serif text-xl font-bold tracking-tight">
-              Archi<span className="text-brand-taupe">Vision</span>
+              Visuals <span className="text-brand-taupe">by Waweru</span>
             </span>
           </Link>
           <p className="text-brand-white/60 text-sm leading-relaxed max-w-xs">
@@ -55,7 +55,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Mail size={16} className="text-brand-taupe" />
-              <span>hello@archivision.com</span>
+              <span>hello@visualsbywaweru.com</span>
             </li>
             <li className="flex items-center gap-3">
               <MapPin size={16} className="text-brand-taupe" />
@@ -66,7 +66,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto pt-10 border-t border-brand-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-brand-white/40 uppercase tracking-widest">
-        <p>© 2024 ArchiVision Studio. All rights reserved.</p>
+        <p>© 2024 Visuals by Waweru. All rights reserved.</p>
         <div className="flex gap-8">
           <a href="#" className="hover:text-brand-white transition-colors">Privacy Policy</a>
           <a href="#" className="hover:text-brand-white transition-colors">Terms of Service</a>

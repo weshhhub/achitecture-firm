@@ -18,7 +18,7 @@ export default function About() {
               We are a collective of <span className="italic">visionaries</span> and builders.
             </h1>
             <p className="text-xl text-brand-black/60 leading-relaxed">
-              ArchiVision Studio was founded on the principle that every space has a story to tell. We combine architectural precision with artistic flair to create environments that inspire.
+              Visuals by Waweru was founded on the principle that every space has a story to tell. We combine architectural precision with artistic flair to create environments that inspire.
             </p>
           </motion.div>
         </div>
@@ -108,7 +108,7 @@ export default function About() {
             <span className="text-brand-taupe text-xs uppercase tracking-[0.3em] font-bold mb-4 block">The Founder</span>
             <h2 className="text-4xl md:text-5xl font-serif mb-8">A Passion for Design</h2>
             <p className="text-brand-white/60 mb-8 leading-relaxed">
-              With over a decade of experience in the architectural industry, our founder established ArchiVision Studio to bridge the gap between complex architectural concepts and client understanding through superior visualization.
+              With over a decade of experience in the architectural industry, our founder established Visuals by Waweru to bridge the gap between complex architectural concepts and client understanding through superior visualization.
             </p>
             <div className="space-y-4">
               <div className="flex items-center gap-4">

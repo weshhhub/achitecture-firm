@@ -22,7 +22,7 @@ export default function Home() {
           </div>
           <div className="space-y-6 text-brand-black/70 leading-relaxed">
             <p>
-              ArchiVision Studio is a multidisciplinary design firm based in Nairobi, Kenya. We specialize in creating spaces that are not only visually stunning but also highly functional and sustainable.
+              Visuals by Waweru is a multidisciplinary design firm based in Nairobi, Kenya. We specialize in creating spaces that are not only visually stunning but also highly functional and sustainable.
             </p>
             <p>
               Whether it's a private residence, a commercial hub, or a detailed 3D visualization for a real estate project, we bring the same level of passion and precision to every task.
@@ -194,7 +194,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <span className="text-brand-taupe text-xs uppercase tracking-[0.3em] font-bold mb-4 block">Why ArchiVision</span>
+            <span className="text-brand-taupe text-xs uppercase tracking-[0.3em] font-bold mb-4 block">Why Visuals by Waweru</span>
             <h2 className="text-4xl md:text-5xl font-serif mb-10 leading-tight">Excellence in every detail, from concept to reality.</h2>
             <div className="space-y-8">
               {[

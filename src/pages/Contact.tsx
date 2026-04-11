@@ -70,7 +70,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-[10px] uppercase tracking-widest font-bold text-brand-taupe mb-1">Email Us</p>
-                    <p className="text-lg font-medium">hello@archivision.com</p>
+                    <p className="text-lg font-medium">hello@visualsbywaweru.com</p>
                   </div>
                 </div>
                 <div className="flex gap-6">

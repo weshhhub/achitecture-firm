@@ -40,7 +40,7 @@ export default function Header() {
             <Box className="text-brand-white w-6 h-6" />
           </div>
           <span className="font-serif text-xl font-bold tracking-tight">
-            Archi<span className="text-brand-taupe">Vision</span>
+            Visuals <span className="text-brand-taupe">by Waweru</span>
           </span>
         </Link>
 
