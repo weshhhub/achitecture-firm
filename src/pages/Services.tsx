@@ -70,10 +70,10 @@ export default function Services() {
                   </div>
 
                   <Link
-                    to="/contact"
+                    to="/quote"
                     className="inline-flex items-center gap-3 bg-brand-black text-brand-white px-8 py-4 rounded-full font-bold uppercase tracking-widest text-xs hover:bg-brand-taupe transition-colors"
                   >
-                    Request a Quote <ArrowRight size={16} />
+                    Build a Quote <ArrowRight size={16} />
                   </Link>
                 </motion.div>
               </div>

@@ -1,4 +1,4 @@
-import { Service, Project, Testimonial, FAQ } from './types';
+import { Service, Project, Testimonial, FAQ, QuoteService, Addon } from './types';
 
 export const SERVICES: Service[] = [
   {
@@ -64,6 +64,27 @@ export const SERVICES: Service[] = [
     ],
     image: 'https://images.unsplash.com/photo-1503387762-592dee58c460?auto=format&fit=crop&q=80&w=1200',
     videoUrl: 'https://player.vimeo.com/external/459389137.sd.mp4?s=91239327aa0d050491a4a6d592076ee432f529f7&profile_id=164&oauth2_token_id=57447761'
+  },
+  {
+    id: 'landscape-design',
+    title: 'Landscape Design',
+    shortDescription: 'Sustainable and aesthetic outdoor living spaces.',
+    fullDescription: 'We design outdoor environments that complement the architecture and enhance the natural beauty of the site. From residential gardens to commercial landscapes.',
+    icon: 'Trees',
+    features: [
+      'Site Analysis',
+      'Planting Plans',
+      'Hardscape Design',
+      'Irrigation Layout',
+      'Outdoor Lighting'
+    ],
+    deliverables: [
+      'Landscape Masterplan',
+      'Planting Schedules',
+      'Construction Details',
+      '3D Landscape Renders'
+    ],
+    image: 'https://images.unsplash.com/photo-1558904541-efa8c1965f1e?auto=format&fit=crop&q=80&w=1200'
   }
 ];
 
@@ -134,7 +155,7 @@ export const TESTIMONIALS: Testimonial[] = [
 export const FAQS: FAQ[] = [
   {
     question: 'What services do you offer?',
-    answer: 'We offer Architectural Design, Interior Design, and 3D Visualization services for residential, commercial, and development projects.'
+    answer: 'We offer Architectural Design, Interior Design, 3D Visualization, and Landscape Design services for residential, commercial, and development projects.'
   },
   {
     question: 'Do you work remotely?',
@@ -148,4 +169,51 @@ export const FAQS: FAQ[] = [
     question: 'What do you need before starting?',
     answer: 'Typically we need a site plan, project brief, and any existing sketches or inspiration images you have.'
   }
+];
+
+export const QUOTE_SERVICES: QuoteService[] = [
+  {
+    id: 'architectural',
+    name: 'Architectural Design',
+    icon: 'Home',
+    subBranches: [
+      { id: 'residential-house', name: 'Residential House', ratePerSqm: 45 },
+      { id: 'flats-apartments', name: 'Flats / Apartments', ratePerSqm: 35 },
+      { id: 'commercial', name: 'Commercial', ratePerSqm: 55 }
+    ]
+  },
+  {
+    id: 'interior',
+    name: 'Interior Design',
+    icon: 'Layout',
+    subBranches: [
+      { id: 'residential', name: 'Residential', ratePerSqm: 30 },
+      { id: 'commercial', name: 'Commercial', ratePerSqm: 40 }
+    ]
+  },
+  {
+    id: 'visualization',
+    name: 'Visualization',
+    icon: 'Box',
+    subBranches: [
+      { id: 'exterior-rendering', name: 'Exterior Rendering', flatRate: 500 },
+      { id: 'interior-rendering', name: 'Interior Rendering', flatRate: 400 },
+      { id: 'walkthrough', name: 'Walkthrough', flatRate: 1200 }
+    ]
+  },
+  {
+    id: 'landscape',
+    name: 'Landscape Design',
+    icon: 'Trees',
+    subBranches: [
+      { id: 'residential-landscape', name: 'Residential Landscape', ratePerSqm: 15 },
+      { id: 'commercial-landscape', name: 'Commercial Landscape', ratePerSqm: 25 }
+    ]
+  }
+];
+
+export const ADDONS: Addon[] = [
+  { id: 'interior-addon', name: 'Interior Design', ratePerSqm: 25 },
+  { id: 'landscape-addon', name: 'Landscape Design', ratePerSqm: 12 },
+  { id: 'visualization-addon', name: 'Visualization', flatRate: 800 }
 ];

@@ -32,7 +32,7 @@ export default function Footer() {
             <li><Link to="/services/architectural-design" className="hover:text-brand-white transition-colors">Architectural Design</Link></li>
             <li><Link to="/services/interior-design" className="hover:text-brand-white transition-colors">Interior Design</Link></li>
             <li><Link to="/services/3d-visualization" className="hover:text-brand-white transition-colors">3D Visualization</Link></li>
-            <li><Link to="/services" className="hover:text-brand-white transition-colors">Space Planning</Link></li>
+            <li><Link to="/services/landscape-design" className="hover:text-brand-white transition-colors">Landscape Design</Link></li>
           </ul>
         </div>
 
@@ -41,6 +41,7 @@ export default function Footer() {
           <ul className="space-y-4 text-sm text-brand-white/60">
             <li><Link to="/about" className="hover:text-brand-white transition-colors">About Us</Link></li>
             <li><Link to="/portfolio" className="hover:text-brand-white transition-colors">Portfolio</Link></li>
+            <li><Link to="/quote" className="hover:text-brand-white transition-colors">Quote Builder</Link></li>
             <li><Link to="/process" className="hover:text-brand-white transition-colors">Our Process</Link></li>
             <li><Link to="/contact" className="hover:text-brand-white transition-colors">Contact</Link></li>
           </ul>

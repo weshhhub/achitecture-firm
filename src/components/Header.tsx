@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Home, Layout as LayoutIcon, Box, Info, Phone, Briefcase } from 'lucide-react';
+import { Menu, X, Home, Layout as LayoutIcon, Box, Info, Phone, Briefcase, Calculator } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '../lib/utils';
 
@@ -9,6 +9,7 @@ const NAV_LINKS = [
   { name: 'About', path: '/about', icon: Info },
   { name: 'Services', path: '/services', icon: LayoutIcon },
   { name: 'Portfolio', path: '/portfolio', icon: Briefcase },
+  { name: 'Quote', path: '/quote', icon: Calculator },
   { name: 'Contact', path: '/contact', icon: Phone },
 ];
 
@@ -59,10 +60,10 @@ export default function Header() {
             </Link>
           ))}
           <Link
-            to="/contact"
+            to="/quote"
             className="bg-brand-black text-brand-white px-6 py-2 text-xs uppercase tracking-widest font-bold rounded-full hover:bg-brand-taupe transition-colors"
           >
-            Get a Quote
+            Build a Quote
           </Link>
         </nav>
 
@@ -100,10 +101,10 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                to="/contact"
+                to="/quote"
                 className="mt-4 bg-brand-black text-brand-white text-center py-4 rounded-lg font-bold uppercase tracking-widest"
               >
-                Request a Quote
+                Build a Quote
               </Link>
             </nav>
           </motion.div>

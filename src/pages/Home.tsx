@@ -261,10 +261,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link
-              to="/contact"
+              to="/quote"
               className="bg-brand-white text-brand-black px-10 py-5 rounded-full font-bold uppercase tracking-widest text-sm hover:bg-brand-taupe hover:text-brand-white transition-all duration-300"
             >
-              Request a Quote
+              Build Your Quote
             </Link>
             <a
               href="https://wa.me/254700000000"

@@ -94,10 +94,10 @@ export default function ServiceDetail() {
                 Every project is unique. Contact us today to discuss your specific requirements and get a tailored quote for our {service.title} services.
               </p>
               <Link
-                to="/contact"
+                to="/quote"
                 className="inline-flex items-center justify-center gap-3 bg-brand-black text-brand-white px-10 py-5 rounded-full font-bold uppercase tracking-widest text-sm hover:bg-brand-taupe transition-colors"
               >
-                Get a Quote <ArrowRight size={18} />
+                Build a Quote <ArrowRight size={18} />
               </Link>
             </div>
           </div>

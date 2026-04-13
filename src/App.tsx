@@ -13,7 +13,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Process from './pages/Process';
 import FAQ from './pages/FAQ';
-
+import QuoteBuilder from './pages/QuoteBuilder';
 import ServiceDetail from './pages/ServiceDetail';
 
 export default function App() {
@@ -29,6 +29,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/process" element={<Process />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/quote" element={<QuoteBuilder />} />
         </Routes>
       </Layout>
     </Router>

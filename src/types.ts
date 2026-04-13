@@ -33,3 +33,24 @@ export interface FAQ {
   question: string;
   answer: string;
 }
+
+export interface SubBranch {
+  id: string;
+  name: string;
+  ratePerSqm?: number;
+  flatRate?: number;
+}
+
+export interface QuoteService {
+  id: string;
+  name: string;
+  icon: string;
+  subBranches: SubBranch[];
+}
+
+export interface Addon {
+  id: string;
+  name: string;
+  ratePerSqm?: number;
+  flatRate?: number;
+}
