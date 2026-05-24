@@ -15,6 +15,7 @@ import Process from './pages/Process';
 import FAQ from './pages/FAQ';
 import QuoteBuilder from './pages/QuoteBuilder';
 import ServiceDetail from './pages/ServiceDetail';
+import ProjectDetail from './pages/ProjectDetail';
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/services/:id" element={<ServiceDetail />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/portfolio/:id" element={<ProjectDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/process" element={<Process />} />
           <Route path="/faq" element={<FAQ />} />

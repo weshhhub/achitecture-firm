@@ -13,12 +13,20 @@ export interface Service {
 export interface Project {
   id: string;
   title: string;
-  category: 'Architecture' | 'Interior' | 'Visualization';
+  category: 'Architectural Design' | 'Interior Design' | 'Visualization' | 'Landscape Design';
+  type: string;
   location: string;
+  size?: string;
   description: string;
+  clientBrief: string;
+  scopeOfWork: string[];
+  servicesIncluded: string[];
+  designHighlights: string[];
   image: string;
+  gallery: string[];
   tools: string[];
   year: string;
+  timeline?: string;
 }
 
 export interface Testimonial {

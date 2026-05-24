@@ -92,42 +92,126 @@ export const PROJECTS: Project[] = [
   {
     id: 'modern-villa-nairobi',
     title: 'Modern Nairobi Villa',
-    category: 'Architecture',
+    category: 'Architectural Design',
+    type: 'Residential House',
     location: 'Nairobi, Kenya',
+    size: '450 sqm',
     description: 'A contemporary residential project focusing on open spaces and natural light.',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800',
+    clientBrief: 'The client requested a minimalist yet warm family home that maximizes natural light and provides a seamless connection between indoor and outdoor living areas.',
+    scopeOfWork: [
+      'Site Analysis & Planning',
+      'Concept Design & 3D Massing',
+      'Detailed Architectural Drawings',
+      'Construction Supervision'
+    ],
+    servicesIncluded: ['Architectural Design', 'Interior Design', '3D Visualization'],
+    designHighlights: [
+      'Double-height living room with floor-to-ceiling glass',
+      'Floating staircase with integrated lighting',
+      'Sustainable rainwater harvesting system'
+    ],
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=1200'
+    ],
     tools: ['Revit', 'Lumion', 'Photoshop'],
-    year: '2023'
+    year: '2023',
+    timeline: '14 Months'
   },
   {
     id: 'urban-loft-interior',
     title: 'Urban Loft Interior',
-    category: 'Interior',
+    category: 'Interior Design',
+    type: 'Apartment',
     location: 'Mombasa, Kenya',
+    size: '180 sqm',
     description: 'Industrial-chic interior design for a luxury apartment.',
-    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=800',
+    clientBrief: 'Transform a raw warehouse space into a sophisticated urban loft that retains industrial character while providing high-end comfort.',
+    scopeOfWork: [
+      'Space Planning',
+      'Custom Furniture Design',
+      'Lighting Design',
+      'Material Sourcing'
+    ],
+    servicesIncluded: ['Interior Design', 'Lighting Design'],
+    designHighlights: [
+      'Exposed brick walls paired with polished concrete floors',
+      'Custom-built steel and oak shelving units',
+      'Smart home automation integration'
+    ],
+    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1600566753086-00f18fb6f3ea?auto=format&fit=crop&q=80&w=1200'
+    ],
     tools: ['3ds Max', 'Corona Renderer', 'AutoCAD'],
-    year: '2024'
+    year: '2024',
+    timeline: '6 Months'
   },
   {
     id: 'commercial-hub-render',
     title: 'Commercial Hub',
     category: 'Visualization',
+    type: 'Commercial',
     location: 'Kisumu, Kenya',
+    size: '2500 sqm',
     description: 'High-end 3D visualization for a new commercial development.',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800',
+    clientBrief: 'Create photorealistic marketing assets to help pre-lease office and retail spaces in a new landmark commercial building.',
+    scopeOfWork: [
+      'Exterior Photorealistic Rendering',
+      'Interior Office Walkthrough',
+      'Aerial Drone Integration',
+      'Virtual Reality Tour'
+    ],
+    servicesIncluded: ['3D Visualization', 'Walkthrough Animation'],
+    designHighlights: [
+      'Dynamic lighting simulations for day/night views',
+      'Accurate material representation of glass and steel facade',
+      'Immersive 360-degree virtual tours'
+    ],
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=1200'
+    ],
     tools: ['Unreal Engine', 'V-Ray', 'SketchUp'],
-    year: '2023'
+    year: '2023',
+    timeline: '4 Weeks'
   },
   {
-    id: 'minimalist-office',
-    title: 'Minimalist Tech Office',
-    category: 'Interior',
+    id: 'zen-garden-landscape',
+    title: 'Zen Garden Retreat',
+    category: 'Landscape Design',
+    type: 'Residential Landscape',
     location: 'Nairobi, Kenya',
-    description: 'A clean, productive workspace for a growing tech startup.',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800',
-    tools: ['SketchUp', 'Enscape', 'Photoshop'],
-    year: '2024'
+    size: '300 sqm',
+    description: 'A peaceful outdoor sanctuary designed for relaxation and meditation.',
+    clientBrief: 'The client wanted a low-maintenance garden that provides a sense of tranquility and privacy in a busy urban neighborhood.',
+    scopeOfWork: [
+      'Site Survey & Analysis',
+      'Planting Plan',
+      'Hardscape Design',
+      'Water Feature Engineering'
+    ],
+    servicesIncluded: ['Landscape Design', '3D Visualization'],
+    designHighlights: [
+      'Custom stone waterfall feature',
+      'Native drought-resistant planting palette',
+      'Ambient LED garden lighting'
+    ],
+    image: 'https://images.unsplash.com/photo-1558904541-efa8c1965f1e?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1558904541-efa8c1965f1e?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&q=80&w=1200'
+    ],
+    tools: ['SketchUp', 'Lumion', 'AutoCAD'],
+    year: '2024',
+    timeline: '3 Months'
   }
 ];
 

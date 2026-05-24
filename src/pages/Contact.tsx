@@ -61,7 +61,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-[10px] uppercase tracking-widest font-bold text-brand-taupe mb-1">Call Us</p>
-                    <p className="text-lg font-medium">+254 700 000 000</p>
+                    <p className="text-lg font-medium">+254 792 617 164</p>
                   </div>
                 </div>
                 <div className="flex gap-6">
@@ -90,7 +90,7 @@ export default function Contact() {
               <h4 className="text-xl font-serif mb-4">Quick Chat</h4>
               <p className="text-brand-white/60 text-sm mb-6">Prefer WhatsApp? Chat with us directly for a faster response.</p>
               <a
-                href="https://wa.me/254700000000"
+                href="https://wa.me/254792617164"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-brand-white font-bold uppercase tracking-widest text-xs border-b border-brand-white pb-1 hover:text-brand-taupe hover:border-brand-taupe transition-colors"
@@ -138,7 +138,7 @@ export default function Contact() {
                     "w-full bg-brand-white border border-brand-black/5 rounded-2xl px-6 py-4 outline-none focus:border-brand-taupe transition-colors",
                     errors.phone && "border-red-500"
                   )}
-                  placeholder="+254 700 000 000"
+                  placeholder="+254 792 617 164"
                 />
                 {errors.phone && <p className="text-red-500 text-[10px] uppercase tracking-widest font-bold">{errors.phone.message}</p>}
               </div>

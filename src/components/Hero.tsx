@@ -49,7 +49,7 @@ export default function Hero() {
                 Request a Quote
               </Link>
               <a
-                href="https://wa.me/254700000000"
+                href="https://wa.me/254792617164"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#25D366] text-white px-8 py-4 rounded-full font-bold uppercase tracking-widest text-sm flex items-center justify-center gap-2 hover:scale-105 transition-transform"

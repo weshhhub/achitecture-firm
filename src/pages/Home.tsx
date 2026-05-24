@@ -267,7 +267,7 @@ export default function Home() {
               Build Your Quote
             </Link>
             <a
-              href="https://wa.me/254700000000"
+              href="https://wa.me/254792617164"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-brand-white/30 text-brand-white px-10 py-5 rounded-full font-bold uppercase tracking-widest text-sm hover:bg-brand-white/10 transition-all duration-300 flex items-center justify-center gap-2"

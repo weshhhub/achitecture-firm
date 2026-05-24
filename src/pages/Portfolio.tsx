@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { ArrowRight, Filter } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { ArrowRight, Filter, Calculator, Rocket } from 'lucide-react';
 import { PROJECTS } from '../constants';
 import { cn } from '../lib/utils';
 
-const CATEGORIES = ['All', 'Architecture', 'Interior', 'Visualization'];
+const CATEGORIES = ['All', 'Architectural Design', 'Interior Design', 'Visualization', 'Landscape Design'];
 
 export default function Portfolio() {
   const [activeCategory, setActiveCategory] = useState('All');
@@ -88,9 +89,12 @@ export default function Portfolio() {
                         </span>
                       ))}
                     </div>
-                    <button className="inline-flex items-center gap-2 text-brand-white font-bold uppercase tracking-widest text-[10px] hover:text-brand-taupe transition-colors">
+                    <Link 
+                      to={`/portfolio/${project.id}`}
+                      className="inline-flex items-center gap-2 text-brand-white font-bold uppercase tracking-widest text-[10px] hover:text-brand-taupe transition-colors"
+                    >
                       View Project Details <ArrowRight size={12} />
-                    </button>
+                    </Link>
                   </div>
                 </motion.div>
               ))}
@@ -112,9 +116,12 @@ export default function Portfolio() {
           <p className="text-brand-white/60 mb-12 text-lg">
             Let's discuss how we can bring your vision to life with our expert design and visualization services.
           </p>
-          <button className="bg-brand-white text-brand-black px-10 py-5 rounded-full font-bold uppercase tracking-widest text-sm hover:bg-brand-taupe hover:text-brand-white transition-all duration-300">
+          <Link 
+            to="/quote"
+            className="bg-brand-white text-brand-black px-10 py-5 rounded-full font-bold uppercase tracking-widest text-sm hover:bg-brand-taupe hover:text-brand-white transition-all duration-300"
+          >
             Start Your Project
-          </button>
+          </Link>
         </div>
       </section>
     </div>
